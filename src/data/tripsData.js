@@ -386,6 +386,31 @@ const tripsData = [
     description: "Himalayan beauty of East India.",
     includes: ["Hotel", "Transport", "Sightseeing"],
   },
+
+  {
+    id: 15,
+    title: "Kedarnath Yatra",
+    location: "Uttarakhand",
+    startLocation: "Haridwar",
+    pricePerPerson: 8999,
+    travelVia: ["Bus"],
+    duration: { days: 4, nights: 3 },
+    totalPeople: 20,
+    startDate: "2026-05-10",
+    endDate: "2026-05-13",
+    stayType: "Hotel",
+    image: kedarnath,
+    meals: { breakfast: true, lunch: true, dinner: true },
+    itinerary: [
+      { day: 1, title: "Haridwar to Guptkashi", details: "Travel via bus." },
+      { day: 2, title: "Kedarnath Darshan", details: "Trek and darshan." },
+      { day: 3, title: "Return to Guptkashi", details: "Return trek." },
+      { day: 4, title: "Back to Haridwar", details: "Trip ends." },
+    ],
+    mandatoryItems: ["ID Proof", "Warm Clothes", "Trekking Shoes"],
+    description: "Divine Kedarnath yatra with guided darshan.",
+    includes: ["Hotel", "Meals", "Bus", "Guide"],
+  },
 ];
 
 export default tripsData;
